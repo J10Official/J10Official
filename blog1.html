@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="An awesome blog on flask">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="blog.css">
+    <script src="https://kit.fontawesome.com/e54dab7c3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1> Getting Started with Flask: A Beginner's Guide to Web Development in Python</h1>
+            <p>Introduction:
+                Flask is a lightweight and flexible web framework for Python, perfect for building web applications quickly and efficiently. In this beginner's guide, we'll explore the basics of Flask, covering essential concepts, creating routes, and building a simple web application.
+                
+                Chapter 1: Introduction to Flask
+                Understand the fundamentals of Flask and why it's a popular choice for web development in Python. Learn about the philosophy of Flask, its minimalistic design, and how it follows the WSGI (Web Server Gateway Interface) standard.
+                
+                Chapter 2: Setting Up Flask
+                Get started by installing Flask and setting up your development environment. Learn how to create a virtual environment, install Flask, and initialize your first Flask project. Explore the basic structure of a Flask application.
+                
+                Chapter 3: Routes and Views
+                Flask uses routes to map URLs to functions, making it easy to define different views for your web application. Dive into route decorators and explore how to create simple views that render HTML pages.
+                
+                Chapter 4: Templates and Jinja2
+                Discover the power of templates in Flask, facilitated by the Jinja2 templating engine. Learn how to create dynamic web pages by rendering HTML templates and passing data from your Python code to the templates.
+                
+                Chapter 5: Forms and User Input
+                Web applications often require user input. Explore Flask-WTF and learn how to create forms in Flask. Understand how to handle form submissions, validate user input, and enhance the interactivity of your web application.
+                
+                Chapter 6: Working with Databases
+                Flask integrates seamlessly with databases, allowing you to persistently store and retrieve data. Learn how to use Flask-SQLAlchemy to interact with databases, define models, and perform basic CRUD (Create, Read, Update, Delete) operations.
+                
+                Chapter 7: Flask Extensions
+                Flask's modular design is complemented by a variety of extensions that add functionality to your application. Explore popular Flask extensions for tasks like handling authentication (Flask-Login), managing sessions (Flask-Session), and more.
+                
+                Chapter 8: Deployment and Production
+                When your Flask application is ready, it's time to deploy it to a production environment. Learn about various deployment options, including popular choices like Heroku, AWS, and DigitalOcean. Understand how to configure your application for a production environment.
+                
+                Conclusion:
+                Congratulations, you've laid the foundation for building web applications with Flask! As you continue to explore and expand your knowledge, you'll discover the versatility and simplicity that Flask brings to Python web development. Keep experimenting, building, and refining your skills to create powerful and dynamic web applications. Happy coding!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="like">
+            <i class="fa-regular fa-heart" id="icon"></i>
+            <p id="likes">68</p>
+            <br>
+        </div>
+        <div class="comment">
+            <form id="commentForm">
+                <input type="text" name="name" placeholder="name">
+                <br>
+                <textarea name="comment" rows="6" placeholder="your comment"></textarea>
+                <br>
+                <button type="submit" class="button1">Comment</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="comments" id="commentsContainer">
+        </div>
+    </div>
+
+    <script>
+        var icon = document.getElementById('icon');
+        var likesCount = document.getElementById('likes');
+        var likeCount = 68;
+    
+        icon.onclick = function () {
+            document.body.classList.toggle('liked');
+            if (document.body.classList.contains("liked")) {
+                icon.className = 'fa-solid fa-heart';
+                likeCount++;
+            } else {
+                icon.className = 'fa-regular fa-heart';
+                likeCount--;
+            }
+            likesCount.textContent = likeCount;
+        }
+    
+        document.getElementById('commentForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+    
+            var name = this.elements.name.value;
+            var commentText = this.elements.comment.value;
+    
+            if (name && commentText) {
+                var commentContainer = document.getElementById('commentsContainer');
+                var newComment = document.createElement('div');
+                newComment.className = 'comment';
+                newComment.innerHTML = '<h3>' + name + '</h3><p>' + commentText + '</p>';
+                commentContainer.appendChild(newComment);
+    
+                this.reset();
+            }
+        });
+    
+        fetch('comments1.txt')
+            .then(response => response.text())
+            .then(data => {
+                var commentContainer = document.getElementById('commentsContainer');
+                var comments = data.split('\n');
+                comments.forEach(comment => {
+                    if (comment.trim() !== '') {
+                        var [name, commentText] = comment.split(':');
+                        var newComment = document.createElement('div');
+                        newComment.className = 'comment';
+                        newComment.innerHTML = '<h3>' + name + '</h3><p>' + commentText + '</p>';
+                        commentContainer.appendChild(newComment);
+                    }
+                });
+            });
+    </script>
+    
+</body>
+</html>

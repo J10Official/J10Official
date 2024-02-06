@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="An awseome website of an awseome person">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jatin's Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/e54dab7c3a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/J2.gif" alt="logo" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blogs">Blogs</a></li>
+                        <li><a href="#contact">Contact</a></li>                        
+                    </ul>
+                    <img src="images/sun.png" id="icon">
+                </nav>
+                <div class="header-text">
+                    <p>Hi I am <span>Jatin</span> <br> a student at IIIT Hyderabad</p>
+                </div>
+            </div>
+        </div>
+        <!-- bio -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col2">
+                        <h1 id="title1">About Me</h1>
+                        <p class="bio">
+                            Hi. I am Jatin Agrawal, a student at IIIT Hyderabad. I am pursuing a Btech in Computer Science and an MS in Computational Linguistics. I am passionate about music, art, story writing and game development. I like to travel. I have travelled a lot around India and have lived in 7 different cities across different states. Reach out to me if you want to collaborate on a project or just want to have a chat.
+                        </p>
+                        <div class="tabs">
+                            <p class="tab active" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab" onclick="opentab('Achivements')">Achivements</p>
+                            <p class="tab" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Devlopment</span><br>HTML: I am proficient with  responsive web design and making accessibile pages<br><br>CSS: I am proficient with flexboxes, animations and transforms <br><br> Javascript: I have basic understanding of JS and to implement the necessary functions <br><br>Flask: I have basic understanding of flask and local storage handling</li>
+                                <li><span>Programming</span><br>C: I am proficient in C with knowledge about advanced pointer ,data structures and memory management <br><br> C++: I am new to C++ and have knowledge about its standard libraries and data structures <br><br>Python: I am new to python and have knowledge about regex, flask, numpy, pygame, etc.</li>
+                                <li><span>Music</span><br>Ableton live: I am proficient with music production on ableton live 10 and can use its vast array of instruments and plugins<br><br>Guitar: I am an intermediate level guitarist with proficiency in fingerstyle, percussion and harmonics.</li>                               
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achivements">
+                            <ul>
+                                <li><span>JEE Advanced</span><br>Qualified JEE Advanced 2019 with a rank of 5713</li>
+                                <li><span>Scolarship</span><br>Recieved a scholarship of 4 lakhs from FIIJEE for my performance in MPTRE 2019</li>
+                                <li><span>National Health and Wellness Quiz</span><br>First runner up at the National Health and Wellness Quiz organized in Delhi</li> 
+                                <li><span>Others</span><br>Won 50+ cultural and academic competitions throughout my school life</li> 
+                                <li><span>Pro Gamer</span><br>Secured an all India rank of 1 on Subway Surfers and 1600 on osu!</li>
+                                <li><span>Survivor</span><br>Survived first semester at IIIT Hyderabad</li>
+                                                            
+                                
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>IIIT Hyderabad</span><br>2023 to 2028(hopefully)<br><br>Btect in Computer science and MS in Computational Linguistics </li>
+                                <li><span>Silverbell's School </span><br>2021 to 2022<br><br>94.20% in class 12th CBSE board</li>
+                                <li><span>Woodstock School</span><br>2018 to 2020 <br><br>96% in class 10th CBSE board</li>                               
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Blogs -->
+       <div id="blogs">
+            <div class="container">
+                <h1 id="title1">My Blogs</h1>
+                <div class="bloglist">
+                    <div>
+                        <h2> Getting Started with Flask</h2>
+                        <p>Flask is a lightweight and flexible web framework for Python, perfect for building web applications quickly and efficiently. In this beginner's guide, we'll explore the basics of Flask, covering essential concepts, creating routes, and building a simple web application.</p>
+                        <a href="blog1.html" target="_blank">Read More</a>
+ 
+                    </div>
+                    <div>
+                        <h2>A Beginner's Guide to Styling Web Pages</h2>
+                        <p>While HTML defines the structure of a webpage, CSS (Cascading Style Sheets) brings it to life with style and visual appeal. In this beginner's guide, we'll delve into the fundamentals of CSS, exploring how to enhance your HTML content with colors, layouts, and design elements.</p>
+                        <a href="blog2.html" target="_blank">Read More</a>
+
+                    </div>
+                    <div>
+                        <h2>A Beginner's Guide to Web Interactivity</h2>
+                        <p>JavaScript is the dynamic programming language that breathes life into your webpages, enabling interactivity, responsiveness, and dynamic behavior. In this beginner's guide, we'll explore the basics of JavaScript, covering essential concepts, syntax, and practical applications for building interactive and dynamic web experiences.</p>
+                        <a href="blog3.html" target="_blank">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <p class="title1">Contact Me</p>
+                <p><a href="mailto:jatin.agrawal@research.iiit.ac.in"><i class="fa-solid fa-envelope"></i></a><a href="mailto:jatin.agrawal@research.iiit.ac.in" class="mail">jatin.agrawal@research.iiit.ac.in</a></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_j10_official_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/J10Official" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jatin-agrawal-8b163a266/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="button1">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

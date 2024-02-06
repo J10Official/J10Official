@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+
+}
+:root{
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: #1d1d1d;
+    /* 1d1d1d */
+}
+.light-theme{
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/jatin.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 240px;
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #dc0b0b;
+    transition: 0.5s;
+    
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 60px;
+}
+.header-text span{
+    color: #dc0b0b;
+}
+/* bio */
+#about{
+    padding: 50px 0;
+    color: var(--primary-color);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col1{
+    flex-basis: 35%;
+}
+.about-col1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col2{
+    flex-basis:60%;
+}
+#title1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 650;
+}
+.bio{
+    color:gray;
+}
+.tabs{
+    margin: 20px 0 40px;
+    display: flex;
+}
+.tab{
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 450;
+    cursor: pointer;
+    position: relative;
+}
+.tab:hover{
+    color: #dc0b0b;
+    transition: 0.5s;
+}
+.active{
+    color: #dc0b0b;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 20px 0;
+    position: relative;
+}
+.tab-contents ul li span{
+    color:lightcoral;
+    font-size: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+/* blogs */
+#blogs{
+    padding: 40px 0;
+}
+.bloglist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.bloglist div{
+    background: var(--tertiary-color);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(56, 24, 24, 0.816);
+    font-size: 15px;
+    font-weight: 300;
+}
+.bloglist div h2{
+    font-size: 30px;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+.bloglist div a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.bloglist div:hover{
+    background-color: #dc0b0b;
+    transform: translateY(-10px);
+    transition: 0.5s;
+    transform: 0.5s;
+}
+/* contact */
+.contact-left{
+    flex-basis: 40%;
+}
+.contact-left p{
+    margin: 35px 0;
+}
+.contact-left p i{
+    margin-right: 20px;
+    font-size: 30px;
+    color: #dc0b0b;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    color: var(--primary-color);
+    font-size: 40px;
+    margin-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.social-icons a:hover{
+    transform: translateY(-10px);
+    color: #dc0b0b;
+    transition: 0.5s;
+    transform: 0.5s;
+}
+
+.button1{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #dc0b0b;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+.button1:hover{
+    background-color: #dc0b0b;
+    transition: 0.5s;
+    
+}
+.mail{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.mail:hover{
+    color: #dc0b0b;
+    transition: 0.5s;
+}
+/* responsiveness */
+@media(max-width: 768px){
+    .container{
+        padding: 10px 5%;
+    }
+    .header-text{
+        margin-top: 40%;
+        font-size: 40px;
+    }
+    .about-col1{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .about-col2{
+        flex-basis: 100%;
+    }
+    .tab{
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    .bloglist div{
+        padding: 20px;
+    }
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .button1{
+        margin: 20px auto;
+    }
+    .header-text{
+        margin-top: 70%;
+        font-size: 30px;
+    }
+    nav ul li {
+        display:list-item;
+        list-style: none;
+        margin: 10px 20px;
+    }
+}

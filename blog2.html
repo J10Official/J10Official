@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="an awesome blog on css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="blog.css">
+    <script src="https://kit.fontawesome.com/e54dab7c3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1> Mastering CSS: A Beginner's Guide to Styling Web Pages</h1>
+            <p>Introduction:
+                While HTML defines the structure of a webpage, CSS (Cascading Style Sheets) brings it to life with style and visual appeal. In this beginner's guide, we'll delve into the fundamentals of CSS, exploring how to enhance your HTML content with colors, layouts, and design elements.
+                
+                Chapter 1: Linking CSS to HTML
+                Before diving into styling, you need to link your CSS file to your HTML document. Understand the <link> tag and how to create an external CSS file to keep your styling separate from your HTML structure. This separation of concerns makes your code cleaner and more maintainable.
+                
+                Chapter 2: Selectors and Properties
+                CSS relies on selectors to target HTML elements and apply styles to them. Learn about various selectors such as element selectors, class selectors, and ID selectors. Explore the vast array of properties like color, font-size, margin, padding, and more that allow you to control the appearance of your elements.
+                
+                Chapter 3: Colors and Backgrounds
+                Dive into the world of colors with CSS. Understand how to use color names, hexadecimal codes, RGB values, and HSL values to define colors. Learn how to apply colors to text, backgrounds, and borders, and explore background properties to enhance the visual appeal of your webpage.
+                
+                Chapter 4: Typography and Fonts
+                CSS provides extensive options for styling text. Explore properties like font-family, font-size, font-weight, and text-align to control the appearance of text on your webpage. Additionally, learn how to import and apply custom fonts to add a unique touch to your design.
+                
+                Chapter 5: Box Model and Layout
+                The box model is fundamental to CSS layout. Understand how elements are structured with content, padding, border, and margin. Explore layout properties like display, position, and float to control the positioning of elements on the page and create responsive designs.
+                
+                Chapter 6: Flexbox and Grid
+                CSS introduces powerful layout tools like Flexbox and Grid, making it easier to create complex and responsive layouts. Learn how to use Flexbox for one-dimensional layouts and Grid for two-dimensional layouts, enabling you to build versatile and dynamic web designs.
+                
+                Chapter 7: Transitions and Animations
+                Add interactivity and engagement to your webpage with CSS transitions and animations. Understand how to create smooth transitions between states and incorporate animations for eye-catching effects. This chapter will guide you through the properties and values needed to bring your webpage to life.
+                
+                Chapter 8: Media Queries for Responsive Design
+                With the proliferation of various devices, creating a responsive design is crucial. Learn how to use media queries in CSS to adjust styles based on the device's screen size, ensuring a seamless experience for users on desktops, tablets, and smartphones.
+                
+                Conclusion:
+                Congratulations! You've now embarked on the journey of mastering CSS, the language that transforms HTML content into visually appealing and user-friendly web pages. As you experiment with different styles, layouts, and effects, you'll gain the skills to create professional and dynamic websites. Keep honing your CSS skills, stay curious, and watch as your web development abilities flourish. Happy coding!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="like">
+            <i class="fa-regular fa-heart" id="icon"></i>
+            <p id="likes">68</p>
+            <br>
+        </div>
+        <div class="comment">
+            <form id="commentForm">
+                <input type="text" name="name" placeholder="name">
+                <br>
+                <textarea name="comment" rows="6" placeholder="your comment"></textarea>
+                <br>
+                <button type="submit" class="button1">Comment</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="comments" id="commentsContainer">
+        </div>
+    </div>
+
+
+    <script>
+        var icon = document.getElementById('icon');
+        var likesCount = document.getElementById('likes');
+        var likeCount = 68;
+    
+        icon.onclick = function () {
+            document.body.classList.toggle('liked');
+            if (document.body.classList.contains("liked")) {
+                icon.className = 'fa-solid fa-heart';
+                likeCount++;
+            } else {
+                icon.className = 'fa-regular fa-heart';
+                likeCount--;
+            }
+            likesCount.textContent = likeCount;
+        }
+    
+        document.getElementById('commentForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+    
+            var name = this.elements.name.value;
+            var commentText = this.elements.comment.value;
+    
+            if (name && commentText) {
+                var commentContainer = document.getElementById('commentsContainer');
+                var newComment = document.createElement('div');
+                newComment.className = 'comment';
+                newComment.innerHTML = '<h3>' + name + '</h3><p>' + commentText + '</p>';
+                commentContainer.appendChild(newComment);
+    
+                this.reset();
+            }
+        });
+    
+        fetch('comments1.txt')
+            .then(response => response.text())
+            .then(data => {
+                var commentContainer = document.getElementById('commentsContainer');
+                var comments = data.split('\n');
+                comments.forEach(comment => {
+                    if (comment.trim() !== '') {
+                        var [name, commentText] = comment.split(':');
+                        var newComment = document.createElement('div');
+                        newComment.className = 'comment';
+                        newComment.innerHTML = '<h3>' + name + '</h3><p>' + commentText + '</p>';
+                        commentContainer.appendChild(newComment);
+                    }
+                });
+            });
+    </script>
+    
+</body>
+</html>
