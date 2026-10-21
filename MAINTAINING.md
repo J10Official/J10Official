@@ -1,18 +1,23 @@
-# Maintaining this profile
+# Profile maintenance
 
-The profile has no third-party image widgets, access tokens, scheduled jobs, or activity counters. The graphics are stored in this repository, with light/dark variants and a reduced-motion rule for the decorative animation.
+Edit `README.md` directly. No generator, scheduled job, or access token is needed. Change pins through GitHub's **Customize your pins**; the README gives context for selected work and does not mirror the current pin selection.
 
-- Edit `README.md` for copy, project case studies, and links.
-- Edit `profile.json` for the header and evidence strip, then run `python tools/render_assets.py` (standard library only).
-- Change profile pins directly through GitHub's **Customize your pins**. The README presents enduring case studies and does not mirror the current pin list, so repinning needs no README changes.
-- The snake is a decorative SVG animation. It does not represent contribution counts or replace GitHub's calendar.
-- Keep unpublished work and private collaborations out of public copy until their release is authorized.
+## Structure
 
-## Evidence behind the copy
+The introduction establishes the research focus and affiliation. The research section connects the current evaluation study to published work on humor generation and evaluation. Each study's scale or result appears with that study. Engineering examples, toolkit, and community work follow in distinct sections.
 
-- Evaluation study and release: https://github.com/J10Official/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation
-- Published papers: https://aclanthology.org/2026.chum-1.7/ and https://aclanthology.org/2026.semeval-1.379/
-- Engineering examples: the four linked public repositories and the public model hub.
-- Affiliation, previous role, service, mentoring, and recognition: the account owner's resume supplied for this profile update. That resume is not included in the public repository.
+Keep that hierarchy when adding work. Avoid a separate strip that mixes experiment counts, publication counts, and competition results.
 
-AI assistance was used to edit profile copy and create the presentation assets. Research claims and project descriptions refer to the owner's work and linked artifacts.
+## Public components
+
+- [Capsule Render](https://github.com/kyechan99/capsule-render) supplies the navy-to-indigo identity banner, with separate text sizing for phone screens. It introduces the name and role; research details remain ordinary text below it.
+- [Shields.io](https://shields.io/badges/static-badge) supplies the four contact buttons.
+- [Skill Icons](https://github.com/tandpfun/skill-icons) supplies the light/dark toolkit strip. The tools are also listed as text.
+
+These are public hosted image services and can be temporarily unavailable. Core content and links remain normal Markdown/HTML. The page has no contribution widgets, decorative snake, or mixed-metric highlights strip.
+
+## Content sources
+
+Research claims come from the linked public projects and ACL Anthology papers. Affiliation, previous work, community service, education, and recognition are based on the owner's supplied resume. The resume and unpublished collaborations are not included in this repository.
+
+AI assistance was used to edit the copy and assemble the profile presentation.
