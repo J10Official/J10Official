@@ -12,7 +12,9 @@
 
 I’m an **AI researcher and engineer** working across language generation, model training, evaluation, and interactive AI systems. I build across the stack: from data preparation and model adaptation to experiments, inference pipelines, and applications people can use.
 
-At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work with **Prof. Radhika Mamidi** on computational creativity and language model evaluation. My broader engineering work includes **Mixture-of-Experts architectures, multi-agent learning systems, offline RAG, and generative storytelling**. Previously, I worked as an **NLP Engineer at Olive Orange**, building an educational RAG system with local models.
+At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work with **Prof. Radhika Mamidi** on computational creativity and language model evaluation. My broader engineering work includes **Mixture-of-Experts architectures, multi-agent learning systems, offline RAG, and generative storytelling**. 
+
+Previously, as **AI Research Lead at Telepathic Software**, I led evaluation and analysis for [**The Humor Tax**](https://laugh.so/research/humor-tax/), studying how post-training affects humor quality and diversity through human evaluation and calibrated model judging.
 
 <p align="center"><img src="https://raw.githubusercontent.com/J10Official/J10Official/60db2e0e9ba870165aef151e475e608e542452f8/assets/research.svg" alt="Research" width="400"></p>
 
