@@ -1,7 +1,9 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=rect&amp;color=0%3A111827%2C65%3A312E81%2C100%3A0E7490&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
-  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0%3A111827%2C65%3A312E81%2C100%3A0E7490&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=43&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=65" alt="Jatin Agrawal — AI research and engineering" width="100%">
-</picture>
+<h1 align="center">Jatin Agrawal</h1>
+<p align="center"><b>AI research & engineering</b><br>Language models · Computational creativity · Intelligent systems</p>
+
+<p align="center">
+  <img src="assets/attractor.gif" alt="A rotating Lorenz attractor with cyan and violet particle trails — generative art" width="520">
+</p>
 
 <p align="center">
   <a href="https://scholar.google.com/citations?user=Pvycwx0AAAAJ&amp;hl=en"><img src="https://img.shields.io/badge/Scholar-5265C4?style=for-the-badge&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar"></a>
@@ -10,10 +12,6 @@
   <a href="mailto:jatin.agrawal@research.iiit.ac.in"><img src="https://img.shields.io/badge/Email-5265C4?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
 </p>
 
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=3500&amp;pause=1800&amp;color=818CF8&amp;center=true&amp;vCenter=true&amp;width=480&amp;height=40&amp;lines=Language+models+%26+generative+AI;Model+training+%26+evaluation;Agents%2C+RAG+%26+interactive+systems" alt="Language models and generative AI · Model training and evaluation · Agents, RAG and interactive systems">
-</p>
 
 I’m an **AI researcher and engineer** working across language generation, model training, evaluation, and interactive AI systems. I build across the stack: from data preparation and model adaptation to experiments, inference pipelines, and applications people can use.
 
@@ -97,3 +95,4 @@ Mentored **100+ students** in game development, helping turn ideas into playable
 
 **Let’s build or investigate something interesting.**<br>
 For research collaborations and applied AI projects: [jatin.agrawal@research.iiit.ac.in](mailto:jatin.agrawal@research.iiit.ac.in).
+
