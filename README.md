@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A1E293B%2C100%3A4F46E5&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A1E293B%2C100%3A4F46E5&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=54" alt="Jatin Agrawal — AI research and engineering" width="100%">
+  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=blur&amp;color=0%3A0E7490%2C50%3A4F46E5%2C100%3A9333EA&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
+  <img src="https://capsule-render.vercel.app/api?type=blur&amp;color=0%3A0E7490%2C50%3A4F46E5%2C100%3A9333EA&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=54" alt="Jatin Agrawal — AI research and engineering" width="100%">
 </picture>
 
 <p align="center">
@@ -18,10 +18,6 @@
 I’m an **AI researcher and engineer** working across language generation, model training, evaluation, and interactive AI systems. I build across the stack: from data preparation and model adaptation to experiments, inference pipelines, and applications people can use.
 
 At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work with **Prof. Radhika Mamidi** on computational creativity and language model evaluation. My broader engineering work includes **Mixture-of-Experts architectures, multi-agent learning systems, offline RAG, and generative storytelling**. Previously, I worked as an **NLP Engineer at Olive Orange**, building an educational RAG system with local models.
-
-<p align="center">
-<a href="#research">Research</a> &nbsp; / &nbsp; <a href="#selected-builds">Selected builds</a> &nbsp; / &nbsp; <a href="#toolkit">Toolkit</a> &nbsp; / &nbsp; <a href="#education--recognition">Background</a>
-</p>
 
 ## Research
 
@@ -57,28 +53,20 @@ How much does a model’s judgment change when the same text is presented differ
 
 ## Toolkit
 
-**AI & model development**
-
 <p>
-<img src="https://skillicons.dev/icons?i=python%2Cpytorch&amp;theme=dark" alt="Python and PyTorch" height="48">
-&nbsp;
-<img src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="Hugging Face" height="44" width="44">
+<img src="https://skillicons.dev/icons?i=python&amp;theme=dark" alt="Python" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=pytorch&amp;theme=dark" alt="PyTorch" width="44" height="44">
+<img src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="Hugging Face" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=cpp&amp;theme=dark" alt="C++" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" alt="TypeScript" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=react&amp;theme=dark" alt="React" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=fastapi&amp;theme=dark" alt="FastAPI" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" alt="Docker" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" alt="Linux" width="44" height="44">
+<img src="https://skillicons.dev/icons?i=git&amp;theme=dark" alt="Git" width="44" height="44">
 </p>
 
-<p>
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&amp;logo=huggingface&amp;logoColor=111827" alt="Hugging Face Transformers">
-<img src="https://img.shields.io/badge/PEFT_%2F_LoRA-FFD21E?style=for-the-badge&amp;logo=huggingface&amp;logoColor=111827" alt="PEFT and LoRA">
-<img src="https://img.shields.io/badge/DSPy-6366F1?style=for-the-badge" alt="DSPy">
-<img src="https://img.shields.io/badge/RAG-334155?style=for-the-badge" alt="Retrieval augmented generation">
-<img src="https://img.shields.io/badge/Mixture_of_Experts-334155?style=for-the-badge" alt="Mixture of Experts">
-</p>
-
-**Applications & infrastructure**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=cpp%2Cts%2Creact%2Cfastapi%2Cdocker%2Clinux%2Cgit&amp;theme=dark&amp;perline=7">
-  <img src="https://skillicons.dev/icons?i=cpp%2Cts%2Creact%2Cfastapi%2Cdocker%2Clinux%2Cgit&amp;theme=light&amp;perline=7" alt="C++, TypeScript, React, FastAPI, Docker, Linux and Git">
-</picture>
+Hugging Face Transformers · DSPy · PEFT / LoRA · RAG · Mixture-of-Experts
 
 ## Education & recognition
 
