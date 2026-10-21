@@ -17,7 +17,7 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.266667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><text x="40" y="387" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#67e8f9">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></tspan></text></g>
 </g>
 <!-- terminal pet -->
-<g transform="translate(800 88) scale(1)"><defs><radialGradient id="bot-shadow"><stop offset="0" stop-color="#020617" stop-opacity=".9"/><stop offset=".5" stop-color="#152442" stop-opacity=".65"/><stop offset=".78" stop-color="#818cf8" stop-opacity=".22"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient></defs>
+<g transform="translate(800 88) scale(1)"><defs><radialGradient id="bot-shadow"><stop offset="0" stop-color="#818cf8" stop-opacity="0"/><stop offset=".48" stop-color="#818cf8" stop-opacity="0"/><stop offset=".7" stop-color="#818cf8" stop-opacity=".4"/><stop offset=".82" stop-color="#67e8f9" stop-opacity=".3"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/></radialGradient></defs>
 <ellipse cx="50" cy="106" rx="39" ry="9" fill="url(#bot-shadow)" opacity=".8">
 <animate attributeName="rx" values="39;43;39" dur="4.8s" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" repeatCount="indefinite"/>
 <animate attributeName="opacity" values=".8;.5;.8" dur="4.8s" calcMode="spline" keyTimes="0;.5;1" keySplines=".42 0 .58 1;.42 0 .58 1" repeatCount="indefinite"/>
