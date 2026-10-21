@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=blur&amp;color=0%3A0E7490%2C50%3A4F46E5%2C100%3A9333EA&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
-  <img src="https://capsule-render.vercel.app/api?type=blur&amp;color=0%3A0E7490%2C50%3A4F46E5%2C100%3A9333EA&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=54" alt="Jatin Agrawal — AI research and engineering" width="100%">
+  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=rect&amp;color=0%3A111827%2C65%3A312E81%2C100%3A0E7490&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
+  <img src="https://capsule-render.vercel.app/api?type=rect&amp;color=0%3A111827%2C65%3A312E81%2C100%3A0E7490&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=43&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=65" alt="Jatin Agrawal — AI research and engineering" width="100%">
 </picture>
 
 <p align="center">
@@ -44,12 +44,19 @@ How much does a model’s judgment change when the same text is presented differ
 
 ## Selected builds
 
-| Project | What I built |
-| :--- | :--- |
-| **[Mixture-of-Experts](https://github.com/J10Official/MoE)**<br>Model architectures | Learned and hash routing experiments, including a **four-expert, top-2 sparse model**. Six released variants with evaluation artifacts and a technical report. [Model weights ↗](https://huggingface.co/J10Official) |
-| **[AI Visual Novel](https://github.com/J10Official/AI_Visual_Novel)**<br>Generative storytelling | A collaborative system spanning screenplay preparation, **QLoRA adaptation**, generation evaluation, and a playable **React** browser engine. |
-| **[Personalized Tutor](https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission)**<br>Agents & learning | A collaborative application with **six DSPy agents**, a 171-concept prerequisite graph across seven courses, persistent learner state, and learner/admin interfaces. |
-| **[Hitori](https://github.com/J10Official/Hitori)**<br>Independent game | A narrative **RPG Maker MZ** game about bullying and the bystander effect, told through two perspectives. [Play on itch.io ↗](https://j10-official.itch.io/hitori) |
+<p>
+<a href="https://github.com/J10Official/MoE"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;repo=MoE" alt="Mixture-of-Experts — live repository card" width="400"></a>
+<a href="https://github.com/J10Official/AI_Visual_Novel"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;repo=AI_Visual_Novel" alt="AI Visual Novel — live repository card" width="400"></a>
+</p>
+
+**Model architectures → playable experiences.** My MoE experiments include a four-expert, top-2 sparse model and six released variants with [model weights](https://huggingface.co/J10Official). AI Visual Novel is a collaborative system spanning screenplay preparation, QLoRA adaptation, generation evaluation, and a React browser engine.
+
+<p>
+<a href="https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;repo=AoLM-Personalized-Tutor-Final-Submission" alt="Personalized Tutor — live repository card" width="400"></a>
+<a href="https://github.com/J10Official/Hitori"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;repo=Hitori" alt="Hitori — live repository card" width="400"></a>
+</p>
+
+**Learning systems → narrative games.** Personalized Tutor is a collaborative application with six DSPy agents, a 171-concept prerequisite graph, and persistent learner state. Hitori is my independently developed RPG Maker MZ game about bullying and the bystander effect. [Play it on itch.io ↗](https://j10-official.itch.io/hitori)
 
 ## Toolkit
 
