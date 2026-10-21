@@ -1,17 +1,14 @@
-<h1 align="center">Jatin Agrawal</h1>
-<p align="center"><b>AI research & engineering</b><br>Language models · Computational creativity · Intelligent systems</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/identity-mobile.svg">
+  <img src="assets/identity.svg" alt="Jatin Agrawal — AI research and engineering" width="100%">
+</picture>
 
-<p align="center">
-  <img src="assets/attractor.gif" alt="A rotating Lorenz attractor with cyan and violet particle trails — generative art" width="520">
+<p>
+<a href="https://scholar.google.com/citations?user=Pvycwx0AAAAJ&amp;hl=en"><b>Publications</b></a> &nbsp; / &nbsp;
+<a href="https://huggingface.co/J10Official"><b>Models</b></a> &nbsp; / &nbsp;
+<a href="https://www.linkedin.com/in/jatin-agrawal-iiith/"><b>LinkedIn</b></a> &nbsp; / &nbsp;
+<a href="mailto:jatin.agrawal@research.iiit.ac.in"><b>Email</b></a>
 </p>
-
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=Pvycwx0AAAAJ&amp;hl=en"><img src="https://img.shields.io/badge/Scholar-5265C4?style=for-the-badge&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar"></a>
-  <a href="https://huggingface.co/J10Official"><img src="https://img.shields.io/badge/Models-5265C4?style=for-the-badge&amp;logo=huggingface&amp;logoColor=white" alt="Models on Hugging Face"></a>
-  <a href="https://www.linkedin.com/in/jatin-agrawal-iiith/"><img src="https://img.shields.io/badge/LinkedIn-5265C4?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="mailto:jatin.agrawal@research.iiit.ac.in"><img src="https://img.shields.io/badge/Email-5265C4?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-</p>
-
 
 I’m an **AI researcher and engineer** working across language generation, model training, evaluation, and interactive AI systems. I build across the stack: from data preparation and model adaptation to experiments, inference pipelines, and applications people can use.
 
@@ -20,45 +17,39 @@ At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work w
 ## Research
 
 ### Presentation sensitivity in typed decision models
-![Current study](https://img.shields.io/badge/CURRENT_STUDY-6366F1?style=flat-square) ![Model evaluation](https://img.shields.io/badge/Model_evaluation-334155?style=flat-square)
+*Current study · Model evaluation*
 
 How much does a model’s judgment change when the same text is presented differently? An audit of **Jev, Clef Flash, and Perplexity Decider** across humor, helpfulness, and summarization: **9,000 items, six datasets, and 702,000 recorded judgments**. The release separates repeatability, presentation robustness, and agreement with people, and includes predictions and offline result reproduction.
 
-[**Manuscript ↗**](https://github.com/J10Official/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation/blob/main/paper/output/current/manuscript.pdf) &nbsp; · &nbsp; [**Code & results ↗**](https://github.com/J10Official/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation)
+[Manuscript](https://github.com/J10Official/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation/blob/main/paper/output/current/manuscript.pdf) · [Code & results](https://github.com/J10Official/Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation)
 
 ### Does Bigger Mean Funnier?
-![CHum 2026](https://img.shields.io/badge/PUBLISHED-CHum_2026-0F766E?style=flat-square) ![Human and model evaluation](https://img.shields.io/badge/Human_%26_model_evaluation-334155?style=flat-square)
+*Published · CHum 2026 · Jatin Agrawal & Radhika Mamidi*
 
-**Evaluating Humor Generation Across the Qwen3 Model Family.** A study of how model scale relates to humor quality across **five Qwen3 models, from 8B to 235B parameters**, using human and automated evaluation. Coauthored with Radhika Mamidi.
+**Evaluating Humor Generation Across the Qwen3 Model Family.** A study of how model scale relates to humor quality across **five Qwen3 models, from 8B to 235B parameters**, using human and automated evaluation.
 
-[**Paper ↗**](https://aclanthology.org/2026.chum-1.7/) &nbsp; · &nbsp; [**Code ↗**](https://github.com/J10Official/Humor-Parameter-Ablation)
+[Paper](https://aclanthology.org/2026.chum-1.7/) · [Code](https://github.com/J10Official/Humor-Parameter-Ablation)
 
 ### Neurosymbolic humor generation
-![SemEval 2026](https://img.shields.io/badge/PUBLISHED-SemEval_2026-0F766E?style=flat-square) ![Structured generation](https://img.shields.io/badge/Structured_generation-334155?style=flat-square)
+*Published · SemEval 2026 · Task 1*
 
 **GTVH-Guided LLM Decomposition · j10official at SemEval-2026 Task 1.** A five-stage **DSPy pipeline** that translates humor theory into a structured generation process. **Second place in both Chinese humor generation and GIF fill-in-the-blank.**
 
-[**Paper ↗**](https://aclanthology.org/2026.semeval-1.379/) &nbsp; · &nbsp; [**Code ↗**](https://github.com/J10Official/Semeval2026_Task1)
+[Paper](https://aclanthology.org/2026.semeval-1.379/) · [Code](https://github.com/J10Official/Semeval2026_Task1)
 
-## Selected builds
+## Selected projects
 
-<p>
-<a href="https://github.com/J10Official/MoE"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=MoE" alt="Mixture-of-Experts — live repository card" width="400"></a>
-&nbsp;
-<a href="https://github.com/J10Official/AI_Visual_Novel"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=AI_Visual_Novel" alt="AI Visual Novel — live repository card" width="400"></a>
-</p>
+### [Mixture-of-Experts](https://github.com/J10Official/MoE)
+Four-expert, top-2 sparse model experiments and six released variants. [Model weights](https://huggingface.co/J10Official).
 
-- **MoE:** Four-expert, top-2 sparse model experiments and six released variants. [Model weights](https://huggingface.co/J10Official).
-- **AI Visual Novel:** Collaborative project spanning screenplay preparation, QLoRA adaptation, generation evaluation, and a React browser engine.
+### [AI Visual Novel](https://github.com/J10Official/AI_Visual_Novel)
+Collaborative project spanning screenplay preparation, QLoRA adaptation, generation evaluation, and a React browser engine.
 
-<p>
-<a href="https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=AoLM-Personalized-Tutor-Final-Submission" alt="Personalized Tutor — live repository card" width="400"></a>
-&nbsp;
-<a href="https://github.com/J10Official/Hitori"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=Hitori" alt="Hitori — live repository card" width="400"></a>
-</p>
+### [Personalized Tutor](https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission)
+Collaborative application with six DSPy agents, a 171-concept prerequisite graph, and persistent learner state.
 
-- **Personalized Tutor:** Collaborative application with six DSPy agents, a 171-concept prerequisite graph, and persistent learner state.
-- **Hitori:** Independently developed RPG Maker MZ game about bullying and the bystander effect. [Play on itch.io](https://j10-official.itch.io/hitori).
+### [Hitori](https://github.com/J10Official/Hitori)
+Independently developed RPG Maker MZ game about bullying and the bystander effect. [Play on itch.io](https://j10-official.itch.io/hitori).
 
 ## Toolkit
 
@@ -79,22 +70,22 @@ Hugging Face Transformers · DSPy · PEFT / LoRA · RAG · Mixture-of-Experts
 
 ## Education & recognition
 
-**International Institute of Information Technology, Hyderabad**<br>
-B.Tech in Computer Science & MS by Research in Computational Linguistics · **Expected 2028**
+**International Institute of Information Technology, Hyderabad**  
+B.Tech in Computer Science & MS by Research in Computational Linguistics · Expected 2028
 
-- **Dean’s List, 2023–2026** · **Research Excellence List, 2026**
-- **P&G Spotlight:** Selected among 16 participants from 1,200+ applicants.
+**Dean’s List** · 2023–2026  
+**Research Excellence List** · 2026  
+**P&G Spotlight** · Selected among 16 participants from 1,200+ applicants
 
 ## Community & leadership
 
-**ACL 2026 · NLP Applications session chair**<br>
-Served as session chair for NLP Applications.
+**ACL 2026** · NLP Applications session chair
 
-**The Gaming Club, IIIT Hyderabad · Game Development Head**<br>
+**The Gaming Club, IIIT Hyderabad** · Game Development Head  
 Mentored **100+ students** in game development, helping turn ideas into playable projects.
 
 ---
 
-**Let’s build or investigate something interesting.**<br>
-For research collaborations and applied AI projects: [jatin.agrawal@research.iiit.ac.in](mailto:jatin.agrawal@research.iiit.ac.in).
+Research collaborations & applied AI projects  
+**[jatin.agrawal@research.iiit.ac.in](mailto:jatin.agrawal@research.iiit.ac.in)**
 
