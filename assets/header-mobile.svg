@@ -17,10 +17,12 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.277778;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><text x="28" y="431" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#67e8f9">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></tspan></text></g>
 </g>
 <!-- terminal pet -->
-<g transform="translate(520 88) scale(0.8)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges">
+<g transform="translate(520 88) scale(0.8)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges"><g transform="translate(-3 0) scale(1.06 1)">
 <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="4s" repeatCount="indefinite"/>
 <path d="M58 19V12H64V6" fill="none" stroke="#dbeafe" stroke-width="4"/>
+<defs><clipPath id="bot-face"><path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z"/></clipPath></defs>
 <path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z" fill="#0a101b" stroke="#dbeafe" stroke-width="3"/>
+<path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z" fill="none" stroke="#dbeafe" stroke-width="8" clip-path="url(#bot-face)"/>
 
 <g transform="translate(50 54) scale(1.12)"><g>
 <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .12;1 1;1 1" keyTimes="0;.47;.49;.51;1" dur="6.2s" repeatCount="indefinite"/>
@@ -29,6 +31,6 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0;0;1;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M-23 5V-5H-19V-9H-10V-5H-6V5H-11V-3H-18V5ZM6 5V-5H10V-9H19V-5H23V5H18V-3H11V5Z"/></g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="-22" y="-13" width="16" height="24"/><rect x="6" y="-5" width="16" height="15"/></g>
 <g opacity="0"><animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M-22 -10L-6 -3V10H-22ZM6 -3L22 -10V10H6Z"/></g>
-</g></g></g></g></g>
+</g></g></g></g></g></g>
 <rect x="20" y="449" width="600" height="3" rx="1.5" fill="url(#edge)"/>
 </svg>
