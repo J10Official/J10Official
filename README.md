@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width:600px)" srcset="assets/header-mobile.svg?v=2">
-  <img src="assets/header.svg?v=2" alt="Jatin Agrawal — AI research and engineering" width="100%">
+  <source media="(max-width:600px)" srcset="https://raw.githubusercontent.com/J10Official/J10Official/60db2e0e9ba870165aef151e475e608e542452f8/assets/header-mobile.svg">
+  <img src="https://raw.githubusercontent.com/J10Official/J10Official/60db2e0e9ba870165aef151e475e608e542452f8/assets/header.svg" alt="Jatin Agrawal — AI research and engineering" width="100%">
 </picture>
 
 <p align="center">
@@ -14,7 +14,7 @@ I’m an **AI researcher and engineer** working across language generation, mode
 
 At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work with **Prof. Radhika Mamidi** on computational creativity and language model evaluation. My broader engineering work includes **Mixture-of-Experts architectures, multi-agent learning systems, offline RAG, and generative storytelling**. Previously, I worked as an **NLP Engineer at Olive Orange**, building an educational RAG system with local models.
 
-<p align="center"><img src="assets/research.svg?v=2" alt="Research" width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/J10Official/J10Official/60db2e0e9ba870165aef151e475e608e542452f8/assets/research.svg" alt="Research" width="400"></p>
 
 <h3 align="center">Presentation sensitivity in typed decision models</h3>
 
@@ -34,7 +34,7 @@ How much does a model’s judgment change when the same text is presented differ
 
 <p align="center"><a href="https://aclanthology.org/2026.semeval-1.379/">Paper</a> · <a href="https://github.com/J10Official/Semeval2026_Task1">Code</a></p>
 
-<p align="center"><img src="assets/toolkit.svg?v=2" alt="Toolkit" width="400"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/J10Official/J10Official/60db2e0e9ba870165aef151e475e608e542452f8/assets/toolkit.svg" alt="Toolkit" width="400"></p>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=python&amp;theme=dark" alt="Python" width="44" height="44">
