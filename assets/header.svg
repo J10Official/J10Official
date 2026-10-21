@@ -17,8 +17,8 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.266667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><text x="40" y="387" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#67e8f9">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></tspan></text></g>
 </g>
 <!-- terminal pet -->
-<g transform="translate(800 88) scale(1)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges"><g transform="translate(-3 0) scale(1.06 1)">
-<animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="4s" repeatCount="indefinite"/>
+<g transform="translate(800 88) scale(1)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="4s" repeatCount="indefinite"/>
+<g transform="translate(-3 0) scale(1.06 1)">
 <path d="M58 19V12H64V6" fill="none" stroke="#dbeafe" stroke-width="4"/>
 <defs><clipPath id="bot-face"><path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z"/></clipPath></defs>
 <path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z" fill="#0a101b" stroke="#dbeafe" stroke-width="3"/>
