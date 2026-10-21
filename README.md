@@ -48,7 +48,8 @@ How much does a model’s judgment change when the same text is presented differ
 <a href="https://github.com/J10Official/AI_Visual_Novel"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=AI_Visual_Novel" alt="AI Visual Novel — live repository card" width="400"></a>
 </p>
 
-**Model architectures → playable experiences.** My MoE experiments include a four-expert, top-2 sparse model and six released variants with [model weights](https://huggingface.co/J10Official). AI Visual Novel is a collaborative system spanning screenplay preparation, QLoRA adaptation, generation evaluation, and a React browser engine.
+- **MoE:** Four-expert, top-2 sparse model experiments and six released variants. [Model weights](https://huggingface.co/J10Official).
+- **AI Visual Novel:** Collaborative project spanning screenplay preparation, QLoRA adaptation, generation evaluation, and a React browser engine.
 
 <p>
 <a href="https://github.com/J10Official/AoLM-Personalized-Tutor-Final-Submission"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=AoLM-Personalized-Tutor-Final-Submission" alt="Personalized Tutor — live repository card" width="400"></a>
@@ -56,7 +57,8 @@ How much does a model’s judgment change when the same text is presented differ
 <a href="https://github.com/J10Official/Hitori"><img src="https://github-stats-extended.vercel.app/api/pin/?username=J10Official&amp;bg_color=111827&amp;title_color=A5B4FC&amp;text_color=CBD5E1&amp;icon_color=22D3EE&amp;border_color=334155&amp;border_radius=12&amp;description_lines_count=3&amp;repo=Hitori" alt="Hitori — live repository card" width="400"></a>
 </p>
 
-**Learning systems → narrative games.** Personalized Tutor is a collaborative application with six DSPy agents, a 171-concept prerequisite graph, and persistent learner state. Hitori is my independently developed RPG Maker MZ game about bullying and the bystander effect. [Play it on itch.io ↗](https://j10-official.itch.io/hitori)
+- **Personalized Tutor:** Collaborative application with six DSPy agents, a 171-concept prerequisite graph, and persistent learner state.
+- **Hitori:** Independently developed RPG Maker MZ game about bullying and the bystander effect. [Play on itch.io](https://j10-official.itch.io/hitori).
 
 ## Toolkit
 
