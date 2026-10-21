@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width:600px)" srcset="https://raw.githubusercontent.com/J10Official/J10Official/51d409a031d4976cd7f7b0a93dc24a02aad40dff/assets/header-mobile.svg">
-  <img src="https://raw.githubusercontent.com/J10Official/J10Official/51d409a031d4976cd7f7b0a93dc24a02aad40dff/assets/header.svg" alt="Jatin Agrawal — AI research and engineering" width="100%">
+  <source media="(max-width:600px)" srcset="https://raw.githubusercontent.com/J10Official/J10Official/f0074897752b40d07d41179d46c12c8b5e9e1af0/assets/header-mobile.svg">
+  <img src="https://raw.githubusercontent.com/J10Official/J10Official/f0074897752b40d07d41179d46c12c8b5e9e1af0/assets/header.svg" alt="Jatin Agrawal — AI research and engineering" width="100%">
 </picture>
 
 <p align="center">
