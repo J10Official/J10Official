@@ -13,3 +13,5 @@ npx --yes pacman-contribution-graph@5.3.1 --game pacman --username J10Official -
 Upstream source and attribution: https://github.com/abozanona/pacman-contribution-graph
 
 Native pins are maintained separately in GitHub; changing them does not require README edits.
+
+The lower header pane runs a 66-second SVG animation: a six-second repository listing followed by ten seconds for each of the six approved project descriptions. Commands are typed before their output appears. The initial name reveal runs once; the hovering bot keeps its own animation. Desktop and mobile descriptions are wrapped separately. Repository names and descriptions are embedded in assets/header.svg and assets/header-mobile.svg, so update both assets if the pins or approved descriptions change. After replacing header assets, update their immutable commit URLs in README.md so GitHub displays the new version.
