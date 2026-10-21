@@ -10,7 +10,7 @@
 <a href="mailto:jatin.agrawal@research.iiit.ac.in"><img src="https://img.shields.io/badge/Email-182135?style=for-the-badge&amp;logo=gmail&amp;logoColor=A5B4FC" alt="Email"></a>
 </p>
 
-I’m an **AI researcher and engineer** working across language generation, model training, evaluation, and interactive AI systems. I build across the stack: from data preparation and model adaptation to experiments, inference pipelines, and applications people can use.
+I’m an **AI researcher and engineer** working on language models, AI agents, and computational creativity. I study how models **generate, judge, and interact**, combining model training and adaptation with rigorous evaluation. I build across the stack: from preparing data and designing experiments to developing inference pipelines and interactive applications people can use.
 
 At **IIIT Hyderabad’s Language Technologies Research Center (LTRC)**, I work with **Prof. Radhika Mamidi** on computational creativity and language model evaluation. My broader engineering work includes **Mixture-of-Experts architectures, multi-agent learning systems, offline RAG, and generative storytelling**. 
 
