@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1E293B,100:4F46E5&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1E293B,100:4F46E5&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=54" alt="Jatin Agrawal — AI research and engineering" width="100%">
+  <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A1E293B%2C100%3A4F46E5&amp;height=360&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=70&amp;fontColor=FFFFFF&amp;fontAlignY=36&amp;desc=AI%20research%20and%20engineering&amp;descSize=28&amp;descAlignY=56">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A1E293B%2C100%3A4F46E5&amp;height=200&amp;section=header&amp;text=Jatin%20Agrawal&amp;fontSize=48&amp;fontColor=FFFFFF&amp;fontAlignY=34&amp;desc=AI%20research%20and%20engineering&amp;descSize=18&amp;descAlignY=54" alt="Jatin Agrawal — AI research and engineering" width="100%">
 </picture>
 
 <p align="center">
@@ -54,8 +54,8 @@ I also make narrative games. **[Hitori](https://github.com/J10Official/Hitori)**
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,cpp,ts,react,fastapi,docker,linux,git&amp;theme=dark&amp;perline=9">
-    <img src="https://skillicons.dev/icons?i=python,pytorch,cpp,ts,react,fastapi,docker,linux,git&amp;theme=light&amp;perline=9" alt="Python, PyTorch, C++, TypeScript, React, FastAPI, Docker, Linux, Git">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python%2Cpytorch%2Ccpp%2Cts%2Creact%2Cfastapi%2Cdocker%2Clinux%2Cgit&amp;theme=dark&amp;perline=9">
+    <img src="https://skillicons.dev/icons?i=python%2Cpytorch%2Ccpp%2Cts%2Creact%2Cfastapi%2Cdocker%2Clinux%2Cgit&amp;theme=light&amp;perline=9" alt="Python, PyTorch, C++, TypeScript, React, FastAPI, Docker, Linux, Git">
   </picture>
 </p>
 
