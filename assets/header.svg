@@ -16,5 +16,27 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.233333;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>Presentation-Sensitivity-in-Typed-Decision-Models-for-Subjective-Text-Evaluation</title><text x="40" y="321" font-size="16" fill="#a5b4fc">Presentation-Sensitivity…/</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.233333;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>Humor-Parameter-Ablation</title><text x="345" y="321" font-size="16" fill="#a5b4fc">Humor-Parameter-Ablation/</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.233333;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>Semeval2026_Task1</title><text x="650" y="321" font-size="16" fill="#a5b4fc">Semeval2026_Task1/</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.245556;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>AI_Visual_Novel</title><text x="40" y="355" font-size="16" fill="#67e8f9">AI_Visual_Novel/</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.245556;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>MoE</title><text x="345" y="355" font-size="16" fill="#67e8f9">MoE/</text></g><g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.245556;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><title>Hitori</title><text x="650" y="355" font-size="16" fill="#67e8f9">Hitori/</text></g>
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.266667;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><text x="40" y="387" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#67e8f9">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></tspan></text></g>
 </g>
+<g transform="translate(770 65) scale(1)"><g aria-label="A big-eyed cat whose expression changes from neutral to happy, curious and grumpy">
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="4s" repeatCount="indefinite"/>
+<path d="M16 50L12 12Q10 4 18 9L49 33M95 33L126 9Q134 4 132 14L128 50" fill="#293855" stroke="#93a4ff" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M21 34L20 19L36 32M107 32L124 19L122 35" fill="#f3a7c4" opacity=".8"/>
+<rect x="7" y="27" width="130" height="98" rx="38" fill="#293855" stroke="#93a4ff" stroke-width="2.5"/>
+<path d="M18 45Q23 35 35 34" fill="none" stroke="#b8c5ff" stroke-width="2" opacity=".45" stroke-linecap="round"/>
+<g transform="translate(72 65)"><g>
+<animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .06;1 1;1 1" keyTimes="0;.47;.49;.51;1" dur="6.2s" repeatCount="indefinite"/>
+<ellipse cx="-26" cy="0" rx="21" ry="24" fill="#f1f6ff"/><ellipse cx="26" cy="0" rx="21" ry="24" fill="#f1f6ff"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;3 0;0 1;-2 0;0 0" dur="9s" repeatCount="indefinite"/>
+<ellipse cx="-24" cy="2" rx="10" ry="13" fill="#152137"/><ellipse cx="24" cy="2" rx="10" ry="13" fill="#152137"/>
+<circle cx="-27" cy="-3" r="4" fill="white"/><circle cx="21" cy="-3" r="4" fill="white"/>
+<circle cx="-20" cy="8" r="1.7" fill="#89eaff"/><circle cx="28" cy="8" r="1.7" fill="#89eaff"/>
+</g></g></g>
+<ellipse cx="24" cy="91" rx="8" ry="4" fill="#f1a3c0" opacity=".55"/><ellipse cx="120" cy="91" rx="8" ry="4" fill="#f1a3c0" opacity=".55"/>
+<path d="M68 87Q72 84 76 87L72 92Z" fill="#f3b2ca"/>
+<g opacity="1"><animate attributeName="opacity" values="1;0;0;0;0;1" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M61 101Q72 105 83 101" fill="none" stroke="#dce8ff" stroke-width="2.8" stroke-linecap="round"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;1;0;0;1;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M56 98Q72 122 88 98Q72 104 56 98Z" fill="#101b2e" stroke="#dce8ff" stroke-width="2.5" stroke-linejoin="round"/><path d="M64 109Q72 103 80 109Q72 116 64 109Z" fill="#f1a3c0"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M26 36Q37 29 47 34" fill="none" stroke="#dce8ff" stroke-width="2.8" stroke-linecap="round"/><circle cx="72" cy="104" r="5" fill="#101b2e" stroke="#dce8ff" stroke-width="2.5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;0;1;0;0" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><path d="M27 38L54 47M90 47L117 38" fill="none" stroke="#dce8ff" stroke-width="4" stroke-linecap="round"/><path d="M61 108Q72 94 83 108" fill="none" stroke="#dce8ff" stroke-width="2.8" stroke-linecap="round"/></g>
+<path d="M17 91L1 87M17 98L1 101M127 91L143 87M127 98L143 101" stroke="#a5b4fc" stroke-width="1.6" stroke-linecap="round" opacity=".65"/>
+</g></g>
 <rect x="20" y="405" width="920" height="3" rx="1.5" fill="url(#edge)"/>
 </svg>
