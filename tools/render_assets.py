@@ -53,6 +53,14 @@ for theme in ("dark", "light"):
     body += f'<path d="M705 130l7 7 14-15" fill="none" stroke="{accent}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
     write(f"header-{theme}.svg", svg(body, 900, 254, f'{DATA["name"]} | {DATA["role"]}', DATA["tagline"], bg, ink))
 
+    mobile = f'<path d="M18 1H342" stroke="{accent}" stroke-width="3"/>'
+    mobile += text(24, 43, "LANGUAGE / MODELS / SYSTEMS", 10, accent, 700, 'letter-spacing="1"')
+    mobile += text(22, 100, DATA["name"], 38, ink, 700)
+    mobile += text(24, 137, DATA["role"], 21, muted)
+    mobile += f'<path d="M24 166H64" stroke="{accent}" stroke-width="3"/>'
+    mobile += text(24, 199, DATA["tagline"], 15, ink, 500)
+    write(f"header-mobile-{theme}.svg", svg(mobile, 360, 228, f'{DATA["name"]} | {DATA["role"]}', DATA["tagline"], bg, ink))
+
     body = ''
     for i, metric in enumerate(DATA["metrics"]):
         x = 30 + 300*i
@@ -62,6 +70,16 @@ for theme in ("dark", "light"):
         body += text(x, 78, metric["label"], 17, ink, 600)
         body += text(x, 101, metric["context"], 10, muted, 500, 'letter-spacing=".7"')
     write(f"evidence-{theme}.svg", svg(body, 900, 130, "Research at a glance", "; ".join(m["value"] + " " + m["label"] for m in DATA["metrics"]), bg, ink))
+
+    mobile = ''
+    for i, metric in enumerate(DATA["metrics"]):
+        y = 51 + i*74
+        if i:
+            mobile += f'<path d="M24 {y-48}H336" stroke="{grid}"/>'
+        mobile += text(24, y, metric["value"], 28, accent, 700)
+        mobile += text(145, y-3, metric["label"], 15, ink, 600)
+        mobile += text(145, y+16, metric["context"], 8, muted)
+    write(f"evidence-mobile-{theme}.svg", svg(mobile, 360, 240, "Research at a glance", "; ".join(m["value"] + " " + m["label"] for m in DATA["metrics"]), bg, ink))
 
     # Intentionally decorative. This board does not read or imitate contribution data.
     board = ''.join(f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{grid}" opacity=".7"/>' for x in range(330, 870, 15) for y in range(30, 135, 15))
@@ -75,4 +93,12 @@ for theme in ("dark", "light"):
 <rect class="motion food" x="695" y="77" width="11" height="11" rx="3" fill="{amber}"/>'''
     write(f"playground-{theme}.svg", svg(body, 900, 160, "After hours", "A decorative pixel snake, independent of GitHub contribution activity.", bg, ink))
 
-print("Rendered and XML-validated 6 SVGs.")
+    mobile = text(24, 34, "AFTER HOURS / STILL BUILDING", 11, accent, 700, 'letter-spacing="1"')
+    mobile += text(24, 61, "Sometimes, just for play.", 16, ink)
+    mobile += ''.join(f'<rect x="{x}" y="{y}" width="10" height="10" rx="2" fill="{grid}"/>' for x in range(24, 337, 14) for y in range(82, 166, 14))
+    mobile += f'''<style>@keyframes crawl{{to{{stroke-dashoffset:-1080}}}}@keyframes blink{{50%{{opacity:.3}}}}.snake{{animation:crawl 18s linear infinite}}.food{{animation:blink 2s ease-in-out infinite}}</style>
+<path class="motion snake" d="M43 101H323V143H43Z" pathLength="1080" fill="none" stroke="{accent}" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="100 980"/>
+<rect class="motion food" x="192" y="124" width="10" height="10" rx="3" fill="{amber}"/>'''
+    write(f"playground-mobile-{theme}.svg", svg(mobile, 360, 188, "After hours", "A decorative pixel snake, independent of GitHub contribution activity.", bg, ink))
+
+print("Rendered and XML-validated 12 SVGs, including mobile variants.")
