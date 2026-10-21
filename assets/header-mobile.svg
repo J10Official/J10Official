@@ -7,7 +7,7 @@
 <text x="88" y="32" font-size="18" fill="#a8b5cb">j10official@github: ~</text>
 <rect x="355" y="52" width="284" height="190" fill="url(#grid)" opacity=".28"/>
 <text x="28" y="91" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#cbd5e1">whoami</tspan></text>
-<text x="25" y="172" font-size="62" font-weight="700" letter-spacing="-4"><tspan fill="#f1f5ff">Jatin </tspan><tspan fill="#101725" stroke="#a5b4fc" stroke-width="1.4" paint-order="stroke fill">Agrawal</tspan></text>
+<text x="25" y="172" font-size="62" font-weight="700" letter-spacing="-4"><tspan fill="#f1f5ff">Jatin </tspan><tspan fill="#101725" stroke="#a5b4fc" stroke-width="2.4" paint-order="fill stroke">Agrawal</tspan></text>
 <text x="28" y="207" font-size="21" fill="#cbd5e1" letter-spacing=".4">AI research &amp; engineering</text>
 <text x="28" y="239" font-size="17" fill="#8b9dbb">Language models · Computational creativity</text>
 <path d="M28 259H612" stroke="#263550"/>
