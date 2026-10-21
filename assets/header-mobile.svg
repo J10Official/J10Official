@@ -17,12 +17,12 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.277778;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><text x="28" y="431" font-size="18"><tspan fill="#22d3ee">~</tspan><tspan fill="#818cf8"> $ </tspan><tspan fill="#67e8f9">▌<animate attributeName="opacity" values="1;1;0;0" dur="1.6s" repeatCount="indefinite"/></tspan></text></g>
 </g>
 <!-- terminal pet -->
-<g transform="translate(518 72) scale(0.84)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges">
+<g transform="translate(520 88) scale(0.8)"><g aria-label="Small two-eyed pixel robot cycling neutral, happy, curious and grumpy expressions" shape-rendering="crispEdges">
 <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="4s" repeatCount="indefinite"/>
-<path d="M57 17V8H62V3M69 17V4H74V0" fill="none" stroke="#dbeafe" stroke-width="5"/>
-<path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z" fill="#0a101b" stroke="#dbeafe" stroke-width="4"/>
-<path d="M25 24H75M15 34V74M25 84H75" fill="none" stroke="#7c8ba6" stroke-width="2" opacity=".55"/>
-<g transform="translate(50 52)"><g>
+<path d="M58 19V12H64V6" fill="none" stroke="#dbeafe" stroke-width="4"/>
+<path d="M25 19H75V24H85V34H90V74H85V84H75V89H25V84H15V74H10V34H15V24H25Z" fill="#0a101b" stroke="#dbeafe" stroke-width="3"/>
+
+<g transform="translate(50 54) scale(1.12)"><g>
 <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .12;1 1;1 1" keyTimes="0;.47;.49;.51;1" dur="6.2s" repeatCount="indefinite"/>
 <g fill="#67e8f9">
 <g opacity="1"><animate attributeName="opacity" values="1;0;0;0;0;1" keyTimes="0;.2;.4;.6;.8;1" calcMode="discrete" dur="18s" repeatCount="indefinite"/><rect x="-22" y="-10" width="16" height="20"/><rect x="6" y="-10" width="16" height="20"/></g>
